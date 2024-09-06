@@ -16,7 +16,7 @@ st.header(comp_name)
 st.write(comp_descr)
 st.subheader("Our Team")
 
-col1, emp_col1, col2, emp_col2, col3 = st.columns([3, 1, 3, 1, 3])
+col1, col2, col3 = st.columns(3)
 
 df = pandas.read_csv("data.csv", sep=',')
 
